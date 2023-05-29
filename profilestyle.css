@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('BGI.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.logo{
+    margin-top: 12px;
+    user-select: none;
+} 
+
+.logo :hover{
+    transform: scale(1.5);
+}
+  
+.header__middle {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__middle .search_input {
+    display: flex;
+    width: 700px;
+    margin:auto;
+    height: fit-content;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 200px;
+    border-radius: 999px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.header__middle .search_input input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    width: 400px;
+    outline-width: 0;
+  }
+
+.header__middle .search_input .icon{
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+  }
+
+.header__right .icon{
+    font-size: 2.3em;
+    margin-top: 12px;
+    align-items: center;
+    color: #fff;
+    border: black;
+}
+
+.header__right .icon:hover{
+    transform: scale(1.5);
+}
+
+.header__right .btnLogout-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:#fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .1s;
+}
+
+.header__right .btnLogout-popup:hover {
+    background: #fff;
+    color: #162938;
+}
+
+.cover{
+    width: 925px;
+    margin: auto;
+    /* margin-top: -10px;
+    margin-left: -50px; */
+    min-height: 400px;
+}
+
+.cover_img{
+    background-color: #ffffff00;
+    text-align: center;
+    color: #ffffff;
+}
+
+.profile_pic{
+    width: 150px;
+    margin-top: -200px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+.menu_buttons {
+    width: 100px;
+    display: inline-block;
+}
+
+.feed{
+    display: flex;
+}
+
+.feed .sidebar{
+    min-height: 400px;
+    flex: 1;
+}
+
+.feed .content{
+    min-height: 400px;
+    flex: 2.5;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+.clubs_img{
+    width: 75px;
+    float: left;
+    margin: 8px;
+    }
+.clubs_bar{
+    background-color: white;
+    min-height: 400px;
+    margin-top: 20px;
+    color: #979e9b;
+    padding: 8px;
+    }
+.clubs{
+    clear: both;
+    font-size: 12px;
+    font-weight: bold;
+    color: #405d9b;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    height: 60px;
+}
+
+.post_button{
+    float: right;
+    background-color: #405d9b;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+}
+
+.post_bar{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.post{
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+}
